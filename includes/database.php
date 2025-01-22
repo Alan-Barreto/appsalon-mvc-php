@@ -1,9 +1,9 @@
 <?php
 
-$db = mysqli_connect($_ENV['BD_HOST'], 
-$_ENV['BD_USER'], 
-$_ENV['BD_PASS'], 
-$_ENV['BD_NAME']
+$db = mysqli_connect($_ENV['DB_HOST'], 
+$_ENV['DB_USER'], 
+$_ENV['DB_PASS'], 
+$_ENV['DB_NAME']
 );
 
 
